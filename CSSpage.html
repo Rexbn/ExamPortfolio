@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lærings portfolie</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header med navigations indhold -->
+    <header>
+
+        <div class="content">
+            <div class="logo">
+                <div class="logotext">
+                    <span class="firstname"><a href="Index.html">Mette</a></span><a href="Index.html"> Nielsen</a>
+                    <!--Span er et inline-tag.
+            Havde man brugt DIV, så vil Nielsen stå nedenunder Mette.
+            Mens med span, står de ved siden af hinanden-->
+                </div>
+
+                <div class="sublogo"><a href="Index.html">1. Semester Multimediedesigner eksamen</a></div>
+            </div>
+
+            <!-- Navigation -->
+
+            <nav>
+               
+                <ul>
+                    <li>
+                        <a href="farver.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="interaktion.html">Interaktion</a>
+                    </li>
+                    <li>
+                        <a href="kommunikationsstrategi.html">Kommunikation</a>
+                    </li>
+                    <li>
+                        <a href="Virksomhed.html">Virksomhed</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- 2nd Header-->
+        <div class="Sec_nav">
+            <ul>
+                <li>
+                    <a href="interaktion.html">Internettets historie</a>
+                </li>
+                <li>
+                    <a href="Html.html">HTML</a>
+                </li>
+                <li>
+                    <a href="CSSpage.html">CSS</a>
+                </li>
+                <li>
+                    <a href="Text.html">Text Styles</a>
+                </li>
+                <li>
+                    <a href="Versionsstyring.html">Versionsstyring</a>
+                </li>
+                <li>
+                    <a href="Grid.html">CSS Grid</a>
+                </li>
+                <li>
+                    <a href="Responsive.html">Responsive design</a>
+                </li>
+                <li>
+                    <a href="OnePIN.html">One Page</a>
+                </li>
+                <li>
+                    <a href="Frameworks.html">Frameworks</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 2nd Nav end-->
+
+    </header>
+    <!-- Header end -->
+
+    <section id="CSS">
+        <div class="Container_placing">
+
+            <h1 class="Chapter_Header">CSS</h1>
+
+            <!-- CSS Historie -->
+            <div class="Container_Holder">
+
+                <div class="TypoIntro">
+                    <h1> CSS Historien</h1>
+                    <hr />
+                    <ul>
+                        <li>
+                            Første version udviklet af Håkon Wium Lie.
+                        </li>
+                        <li>
+                            W3C overtog standardiseringsarbejdet.
+                        </li>
+                        <li>
+                            IE3 -> første understøttende browser.
+                        </li>
+                        <li>
+                            Netscape 4.0 forsøgte, men havde tons af fejl.
+                        </li>
+                        <li>
+                            Standarden har udviklet sig meget.
+                        </li>
+                        <li>
+                            Standarden har udviklet sig meget.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Hvor skriver man CSS -->
+            <div class="Container_Holder">
+
+                <div class="TypoIntro">
+                    <h1>
+                        Hvor skriver man CSS
+                    </h1>
+                    <hr />
+                    <p>
+                        Kan placeres i dokumentet (Embed) -> Gælder kun for det dokument.<br />
+
+                        I eksternt dokument (link) - > Kan anvendes i mange dokumenter. -> Sikrer ensartethed. <br />
+
+                        (Og inline, men så forsvinder ideen med at adskille struktur og layout) -> just don't
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- CSS Syntaks -->
+            <div class="Container_Holder">
+                <!-- Container left -->
+                <div class="con_left">
+
+                    <img class="centerpic" src="Pictures/interaktion3.jpg" width="450" />
+                    <h4>
+                        CSS EKSEMPEL
+                    </h4>
+                    <p>
+                        - Embedded placeres i
+                        head tagget
+                    </p>
+                    <img src="Pictures/interaktion4.jpg" height="150" />
+                </div>
+
+                <!-- Container right -->
+                <div class="con_right">
+                    <h1>
+                        CSS Syntaks
+                    </h1>
+                    <hr />
+
+                    Vælg hvad der skal styles (Selectors)
+                    <p>
+                        - Alle tags af en bestemt type (p, h1, h2, body, a:link..) <br />
+
+                        - flere udvalgte elementer (.class) <br />
+
+                        - et helt specifikt element (#id)
+                    </p>
+                    En række deklarationer (declarations)
+                    <p>
+                        - Deklarationen startes med { (krøllet parantes) og slutes med den tilsvarende } <br />
+                        - består af egenskaber (properties) og værdier (values) adskilt af : (kolon) <br />
+                        - Egenskaber afsluttes med ; (semikolon)
+
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Kaskaderegler -->
+            <div class="Container_Holder">
+
+                <div class="TypoIntro">
+                    <h1>Kaskaderegler</h1>
+                    <hr />
+
+                    <h4>
+                        Nedarvning (Inheritance)<br />
+
+                        Cascading
+                    </h4>
+                    Et sæt regler der definerer hvordan modstridende CSS deklareringer løses. <br />
+                    - Specificity: Mere specifik har forrang mod mere generel <br />
+                    - Source order: Seneste deklareringer har forrang mod tidligere deklaringer <br />
+                    - Specificity har forrang mod source order <br />
+                    - Og undtagelsen: !important - men den smadrer totalt ideen med kaskaderegler - undgå den så vidt muligt.
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer> <p>Copyright 2017-2018 &copy; Mette Nielsen </p> 
+        <i class="smalltext">Kile: Collins, Mark J. 2017 "Pro HTML5 with CSS, Javascript, and Multimedia - complete Website Development and Best Practices"</i>
+    </footer>
+</body>
+</html>

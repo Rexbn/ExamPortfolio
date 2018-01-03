@@ -1,0 +1,769 @@
+﻿/*********************/
+/**Global styling**/
+/*******************/
+
+body {
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin: 5%;
+
+}
+
+h4 {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.Chapter_Header {
+    color: #fff;
+    font-size: 2.5em;
+}
+.Container_placing {
+    padding-top: 6%;
+}
+
+.Container_Holder {
+    margin: auto;
+    padding-bottom: 4%;
+    width: 74%;
+    height: 450px;
+}
+/********* Container Left - Styling *******/
+.con_left {
+    height: 450px;
+    width: 49.5%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+    color: #131313;
+    border-style: outset;
+}
+
+
+    .con_left p {
+        padding: 10px;
+        font-size: 1em;
+        padding-top:0;
+    }
+
+    .con_left ul li {
+        font-size: 1.1em;
+        padding-bottom: 10px;
+        text-align: left;
+        padding: 5px;
+        font-size: 1em;
+        list-style-type: none;
+    }
+
+/******** Container right - Styling ********/
+
+.con_right {
+    height: 450px;
+    width: 49.3%;
+    float: right;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-style: outset;
+}
+
+
+    .con_right p {
+        padding: 15px;
+        padding-top:0;
+        font-size: 1em;
+    }
+
+    .con_right ul li {
+        list-style-type: none;
+        font-size: 1em;
+        padding-bottom: 10px;
+        text-align: left;
+        padding: 5px;
+    }
+
+
+footer {
+    width: 100%;
+    height: 40px;
+    font-size: 0.7em;
+    color: #d7d7d7;
+    text-align: center;
+    background-color: #000000;
+    border-top: 2px solid rgba(255,255,255,0.75);
+    position: relative;
+    bottom: 0;
+    margin-top: 15px;
+}
+/* "Logo" Styling */
+/************************/
+
+header .logo {
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+    float: left;
+}
+
+
+    header .logo .logotext {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.7em;
+        color: #d7d7d7;
+        text-transform: uppercase;
+        line-height: 1.2em;
+    }
+    header .logo .logotext a{
+        text-decoration:none;
+       color:#d7d7d7;
+    }
+
+        header .logo .logotext .firstname a{
+            color: #b781eb;
+        }
+
+            header .logo .logotext .firstname a {
+                text-decoration: none;
+            }
+
+
+header .content {
+    padding: 0;
+}
+
+header .logo .sublogo {
+    text-transform: lowercase;
+    font-size: 0.8em;
+    color: #fff;
+    padding-left: 15px;
+   
+}
+    header .logo .sublogo a {
+        text-decoration: none;
+        color:#d7d7d7;
+    }
+
+/* Navigation styling*/
+/*********************************/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    font-size:1.2em;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding-top: 35px;
+}
+
+    nav ul li a {
+        color: #d7d7d7;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0 5px;
+        margin: 0 18px;
+    }
+
+        nav ul li a:hover {
+            border-bottom: 5px solid #d7d7d7;
+            width: 70%;
+            transition: 200ms ease all;
+            color: #fff;
+        }
+
+header {
+    height: 100px;
+    position: fixed;
+    background: rgba(0,0,0,0.50);
+    border-bottom: 2px solid rgba(255,255,255,0.75);
+    overflow: hidden;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: left;
+}
+
+/**** 2nd Navigation ****/
+
+.Sec_nav ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    float: right;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+    .Sec_nav ul li {
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 0.6em;
+    }
+
+        .Sec_nav ul li a {
+            color: #d7d7d7;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline;
+            padding: 0 5px;
+            margin: 0 8px;
+        }
+
+            .Sec_nav ul li a:hover {
+                border-bottom: 2px solid #d7d7d7;
+                width: 70%;
+                transition: 200ms ease all;
+                color: #fff;
+            }
+
+/***************************/
+/***** INDEX STYILING *****/
+/*************************/
+
+
+#Container {
+    margin: auto;
+    padding-top: 9%;
+    width: 74%;
+    height: 450px;
+}
+
+.container_left {
+    height: 450px;
+    width: 49.5%;
+    float: left;
+    text-align: center;
+    background-color: #d7d7d7;
+    color: #131313;
+    border-style: outset;
+    margin-bottom:3em;
+}
+
+.container_right {
+    height: 450px;
+    width: 49.3%;
+    float: right;
+    text-align: center;
+    background-color: #131313;
+    color: #d7d7d7;
+    border-style: outset;
+}
+.container_left p, .container_right p{
+    padding:10px;
+}
+
+/***************************/
+/***** FARVER STYILING ****/
+/*************************/
+
+
+
+
+/******** Image styling **********/
+
+.COLORIMG {
+    float: left;
+    padding: 10px;
+}
+
+.content_img {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+/***** Content styling ********/
+
+.Content_top {
+    height: 200px;
+    width: 100%;
+}
+
+.Content_bot {
+    height: 200px;
+    width: 100%;
+}
+
+.Content_LI {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+
+/***************************/
+/*** FOTOGRAFI STYILING ***/
+/*************************/
+
+
+.Container_HolderW {
+    margin: auto;
+    width: 74%;
+    height: 700px;
+}
+
+.FotoIntro {
+    width: 700px;
+    background-image: url('Pictures/foto_pexels.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 250px;
+    border-radius: 25px;
+}
+    .FotoIntro p {
+        padding: 20px;
+    }
+    #Foto_Textbox{
+        width:400px;
+        height:auto;
+        background-color:#fff;
+        opacity:0.5;
+        border-radius:25px;
+        position:absolute;
+        margin-top:80px;
+
+    }
+
+.Foto_left {
+    height: 486px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+    color: #131313;
+    padding-top:14px;
+}
+    .Foto_left ul {
+        padding:0 15px;
+    }
+.Foto_left li{
+    font-size:0.7em;
+    padding-bottom:5px;
+    list-style-type:none;
+}
+
+.Foto_mid{
+    height:500px;
+    width:33.33%;
+    float:left;
+    text-align:center;
+    background-color:#fff;
+    color:#131313;
+}
+.Foto_mid ul{
+    padding:0 15px;
+}
+.Foto_mid li{
+    font-size:0.7em;
+    padding-bottom:5px;
+    list-style-type:none;
+}
+#ISOH1{
+    padding-bottom:14px;
+}
+.Foto_right{
+    height:500px;
+    width:33.33%;
+    float:left;
+    text-align:center;
+    background-color:#fff;
+    color:#131313;
+}
+.Foto_right ul{
+    padding:0 15px;
+}
+.Foto_right li{
+    font-size:0.7em;
+    padding-bottom:5px;
+    list-style-type:none;
+}
+#ApertureH1{
+    padding-bottom:14px;
+}
+
+#whiteBalance {
+    background-image: url('Pictures/foto_pexel_2.jpg');
+    background-repeat:no-repeat;
+    height:700px;
+}
+#whiteBalance{
+    padding:20px;
+}
+#whiteBalance li{
+font-size:0.7em;
+list-style-type:none;
+}
+#whiteBalance ul{
+    padding:10px;
+}
+.White_left {
+    width: 33.33%;
+    height:400px;
+    float: left;
+    text-align: center;
+    color: #131313;
+    background-color:#fff;
+    opacity:0.8;
+    margin:auto;
+}
+
+/***************************/
+/*** TYPOGRAFI STYILING ***/
+/*************************/
+
+
+.typoH3 {
+    margin-bottom: 5px;
+    padding: 0;
+    text-align:center;
+}
+
+.TypoIntro {
+    width: 70%;
+    margin: auto;
+    background-color:#fff;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding:30px;
+}
+.TypoIntro p{
+    padding:20px;
+}
+    .TypoIntro li {
+        list-style-type: none;
+    }
+    .TypoIntro ul{
+        padding:15px;
+    }
+
+/***************************/
+/*** PHOTOSHOP STYILING ***/
+/*************************/
+
+.ContainerPS_Holder {
+    margin: auto;
+    padding-bottom: 4%;
+    width: 74%;
+    height: 750px;
+}
+
+.PSbox {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.PSleft {
+    float: left;
+    width: 40%;
+    text-align: left;
+    color: #131313;
+    margin: auto;
+    font-size:0.8em;
+}
+.PSleft p{
+    margin:0;
+}
+.PSright img {
+    float: right;
+}
+/***************************/
+/** ILLUSTRATOR STYILING **/
+/*************************/
+
+
+.illuCenter{
+    padding:20px;
+}
+
+.IlluText{
+    font-size:0.7em;
+}
+
+.ContainerIllu_Holder {
+    margin: auto;
+    padding-bottom: 4%;
+    width: 74%;
+    height: 1100px;
+}
+
+/***************************/
+/**** INDESIGN STYILING ***/
+/*************************/
+
+
+.contentindesign{
+    color:#fff;
+}
+.indesignimg{
+    float:left;
+}
+
+/***************************/
+/***** VIDEO STYILING *****/
+/*************************/
+
+#textvideo{
+    font-size:0.7em;
+}
+/***************************/
+/**** ONE PAGE STYILING ***/
+/*************************/
+
+
+.smalltext{
+    font-size:0.8em;
+}
+.centerpic{
+    margin-top:10%;
+}
+
+/***************************/
+/****** HTML STYILING *****/
+/*************************/
+
+
+.ContainerHTML_Holder {
+    margin: auto;
+    padding-bottom: 4%;
+    width: 74%;
+    height: 950px;
+}
+.containerHTML_left {
+    height: 450px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    color: #131313;
+
+}
+
+/***************************/
+/****** TEXT STYILING *****/
+/*************************/
+
+
+
+.Pic_right{
+    float:right;
+    width:40%;
+}
+.smallLI{
+    float:left;
+}
+
+/***************************/
+/* KOMMUNIKATION STYILING */
+/*************************/
+
+.text_left{
+    width:50%;
+    float:left;
+}
+
+/******************************************************************/
+/***************************/
+/***** Mobile STYILING ****/
+/*************************/
+
+@media screen and (max-width: 550px) {
+
+    h1{
+        font-size:1.2em;
+        margin:auto;
+        
+    }
+
+    .Chapter_Header {
+   margin-top:20%;
+   font-size:2em;
+    }
+
+    #Container{
+        width:auto;
+        height:auto;
+    }
+
+    .Container_Holder {
+
+        width: auto;
+        height: auto;
+    }
+    .container_left{
+        height:auto;
+        width:auto;
+        margin-bottom:auto;
+    }
+    .container_right{
+        height:auto;
+        width:auto;
+    }
+
+    .con_left{
+        width:98%;
+        height:auto;
+    }
+    .con_left p{
+        font-size:0.8em;
+    }
+    .con_right{
+        width:98%;
+        height:auto;
+        float:left;
+    }
+    .con_right p{
+        font-size:0.8em;
+    }
+    footer{
+        border:none;
+        background-color:transparent;
+    }
+
+     /****************/
+    /**Design siden**/
+   /****************/
+
+   img{
+       width:450px;
+   }
+   .Container_Holder{
+       height:auto;
+       width:auto;
+   }
+
+    .con_right ul li{
+        float:left;
+        width:300px;
+        font-size:0.8em;
+    }
+    .con_left ul li {
+        float: left;
+        width: 300px;
+        font-size: 0.8em;
+    }
+    .content_img {
+        float: none;
+        padding: 0;
+        height: 200px;
+        width: 200px;
+    }
+
+    /********************/
+    /* Fotografi siden */
+    /******************/olderW
+
+
+    .Container_HolderW {
+        width: auto;
+        height: auto;
+    }
+
+    .FotoIntro{
+        width:auto;
+    }
+    .White_left {
+        width: auto;
+        height: auto;
+        float: none;
+        text-align: left;
+    }
+    .Foto_left {
+        height:auto;
+        width: auto;
+    }
+    .Foto_mid{
+        height:auto;
+        width:auto;
+    }
+    .Foto_right{
+        height:auto;
+        width:auto;
+    }
+    #whiteBalance{
+        height:auto;
+    }
+
+    /*****************/
+    /*Photoshop siden*/
+    /*****************/
+    .ContainerPS_Holder {
+        padding-bottom: 4%;
+        width: auto;
+        height: auto;
+    }
+    .PSbox {
+        width: auto;
+    }
+    #size{
+        width:400px;
+    }
+    .PSleft {
+        float: none;
+        width: auto;
+        font-size:1em;
+    }
+    #imgheight{
+        height:400px;
+        width:100px;
+    }
+    /********************/
+    /*Illustrator siden*/
+    /******************/
+
+    .imgsize{
+        width:auto;
+        height:auto;
+    }
+    .imgsmall{
+        width:300px;
+    }
+    /*****************/
+    /*Indesign siden*/
+    /***************/
+    .indesignimg {
+        float: none;
+        width:100%;
+    }
+
+    /*************/
+    /*Html siden*/
+    /***********/
+    .TypoIntro {
+        width: auto;
+        border-radius: 5px;
+        padding: 30px;
+    }
+
+    .ContainerHTML_Holder {
+        width: auto;
+        height: auto;
+    }
+
+    .containerHTML_left {
+        height: auto;
+        width: auto;
+    }
+
+
+    }

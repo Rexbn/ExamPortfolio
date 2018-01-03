@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lærings portfolie</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header med navigations indhold -->
+    <header>
+
+        <div class="content">
+            <div class="logo">
+                <div class="logotext">
+                    <span class="firstname"><a href="Index.html">Mette</a></span><a href="Index.html"> Nielsen</a>
+                    <!--Span er et inline-tag.
+            Havde man brugt DIV, så vil Nielsen stå nedenunder Mette.
+            Mens med span, står de ved siden af hinanden-->
+                </div>
+
+                <div class="sublogo"><a href="Index.html">1. Semester Multimediedesigner eksamen</a></div>
+            </div>
+
+            <!-- Navigation -->
+
+            <nav>
+               
+                <ul>
+                    <li>
+                        <a href="farver.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="interaktion.html">Interaktion</a>
+                    </li>
+                    <li>
+                        <a href="kommunikationsstrategi.html">Kommunikation</a>
+                    </li>
+                    <li>
+                        <a href="Virksomhed.html">Virksomhed</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- 2nd Header-->
+        <div class="Sec_nav">
+            <ul>
+                <li>
+                    <a href="farver.html">Farve teori</a>
+                </li>
+                <li>
+                    <a href="Gestalt.html">Gestaltlove</a>
+                </li>
+                <li>
+                    <a href="Fotografier.html">Fotografier</a>
+                </li>
+                <li>
+                    <a href="Typografi.html">Typografi</a>
+                </li>
+                <li>
+                    <a href="Photoshop.html">Photoshop</a>
+                </li>
+                <li>
+                    <a href="illustrator.html">Illustrator</a>
+                </li>
+                <li>
+                    <a href="indesign.html">Indesign</a>
+                </li>
+                <li>
+                    <a href="premierevideo.html">Video</a>
+                </li>
+                <li>
+                    <a href="onep.html">One page</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 2nd Nav end-->
+
+    </header>
+    <!-- Header end -->
+
+    <section id="Photoshop">
+        <div class="Container_placing">
+            <h1 class="Chapter_Header"> Photoshop </h1>
+
+            <!--- Selections -->
+
+            <div class="Container_Holder">
+
+                <!-- Container left-->
+                <div class="con_left">
+                    <h4>Selections</h4>
+                    <img src="Pictures/PSbear.jpg" />
+
+                </div>
+
+                <!-- Container right -->
+                <div class="con_right">
+                    <p>
+                        Denne "bjørn" er lavet ved brug af selections og FX (effekter)
+
+                    </p>
+                    <p>
+                        Elliptical Marquee Tool for at danne cirklerne.
+                        Derefter er der under FX-effekterne, puttet en "stroke" effekt på, for at danne outlinen.
+                        Til sidst er der added "gradient overlay" effekten, for at skabe et 3d look.
+
+                    </p>
+                    <img src="Pictures/PSeffects.jpg" height="200" />
+                </div>
+
+            </div>
+
+            <!-- Spot Healing Brush  og Content-aware-fill -->
+
+            <div class="Container_Holder">
+
+                <!-- Container left -->
+
+
+                <div class="con_left">
+                    <h1>Spot Healing Brush</h1>
+                    <hr />
+                    <p>
+                        Spot-healing brushen går ind og "glatter" detaljer ud, og bruger information fra omkring liggende detaljer, for at få nye informationer ind i billedet.
+                    </p>
+                    <img src="Pictures/spothealing.jpg" />
+
+                </div>
+
+                <!-- Container right -->
+                <!-- Content-aware-fill -->
+                <div class="con_right">
+                    <h1>Content-aware-fill</h1>
+                    <hr />
+                    <p>
+                        Virker således at den kan fjerne content og bruge omkring liggende billede informationer til at genskabe hvad der muligvis burde være bagved objektet der er blevet fjernet.
+                    </p>
+
+                    <p>
+                        <h4>Content-aware-fill findes sådan:</h4> Lav en selection omkring det der skal fjernes,
+                        derefter hold shift og backspace nede. I pop-up vinduet ved selections (contents), vælges Content-aware-fill.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Gradient and effects on Text -->
+            <div class="ContainerPS_Holder">
+
+                <div class="PSbox">
+                    <h1>Gradient og effekts på Tekst</h1>
+                    <hr />
+                    <p>
+                        Samme princip, som med "bjørnen". Hvor der bruges effekter som Stroke (outlinen), Gradient-overlay (Indeni teksten, og på baggrunden via lyset i bunden), Drop-shadow (Den mørke del af teksten).
+                    </p>
+                    <img id="size" src="Pictures/PSsmooth.jpg" />
+                    <p>
+                        Lyset i toppen af billedet, er lavet ved en selection der er blevet farvet i samme farve som den i bunden. Derefter er der blevet brugt en Gaussian Blur på den, for at få samme effekt.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Quick Selection Tool og Color-Range -->
+            <div class="Container_Holder">
+
+                <!-- Quick Selection tool -->
+                <!-- Container left -->
+                <div class="con_left">
+                    <h1>Quick Selection Tool</h1>
+                    <hr />
+                    <p> Quick Selection tool er et tool der kan hurtigt selecte et område i et billede</p>
+                    <div class="PSleft">
+                        <p>Quick Selection tool markerede alt der var udenfor teltet. </p>
+                        <p>Hvor der så blev lavet en mask, som blev inverted med Ctrl + i.</p>
+                     
+                    </div>
+
+                    <img class="PSright" src="Pictures/quickselect.jpg" />
+                </div>
+
+                <!--   Color-Range   -->
+                <!-- Container right -->
+                <div class="con_right">
+                    <h1>Color Range</h1>
+                    <hr />
+                    <p>
+                        Under "Select" i toppen af photoshop, er der noget der hedder Color-range.
+                        Den kan identificere en selection udfra farve, som man color-picker på billedet.
+                    </p>
+                    <p>
+                        Quick-mask-mode, kan så hurtigt lave en mask ud fra den selection som Color-range har lavet.
+                        Hvor man så kan enten male mere på masken (de huller som color-range har mistet, pga. f.eks. anderledes tone i farve), eller man kan viske masken ud, hvis man har malet for meget på.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- Integrering af text i billede og Select and Mask -->
+
+            <div class="Container_Holder">
+
+                <!-- Text på billeder -->
+                <!-- Container left -->
+                <div class="con_left">
+                    <img src="Pictures/textonpic.jpg" />
+                    <p>
+                        På dette billede, er der blevet skrevet Lucky, som så er blevet masket.
+                        Derefter blevet opacity skruet ned for, for at kunne se baggrunden og vide hvor masken skulle males for at slette lucky og dermed integrerer teksten i billedet.
+
+                    </p>
+                    <img src="Pictures/PSlucky.jpg" />
+                </div>
+
+                <!-- Select and Mask-->
+                <!-- Container right -->
+                <div class="con_right">
+                    <h1> Select og Mask</h1>
+                    <hr />
+                    <p>
+                        I opgaven stillet, blev pigen selected med Quick-selection-Tool, for derefter at gå ind under select (toppen af photoshop), og vælge Select And Mask.
+                    </p>
+                    <div class="PSleft">
+                        <p>
+                            Derud fra bliver man smidt ind i et lille vindue med mindre muligheder.
+                        </p>
+                        <p>
+                            Refine edge brush (den markede brush),
+                            Gør så godt som den kan, med at fjerne baggrunden fra håret.
+                        </p>
+                    </div>
+                    <img id="imgheight" src="Pictures/PSrefine.jpg" />
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer> <p>Copyright 2017-2018 &copy; Mette Nielsen </p> </footer>
+
+</body>
+</html>

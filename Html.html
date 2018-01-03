@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lærings portfolie</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header med navigations indhold -->
+    <header>
+
+        <div class="content">
+            <div class="logo">
+                <div class="logotext">
+                    <span class="firstname"><a href="Index.html">Mette</a></span><a href="Index.html"> Nielsen</a>
+                    <!--Span er et inline-tag.
+            Havde man brugt DIV, så vil Nielsen stå nedenunder Mette.
+            Mens med span, står de ved siden af hinanden-->
+                </div>
+
+                <div class="sublogo"><a href="Index.html">1. Semester Multimediedesigner eksamen</a></div>
+            </div>
+
+            <!-- Navigation -->
+
+            <nav>
+               
+                <ul>
+                    <li>
+                        <a href="farver.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="interaktion.html">Interaktion</a>
+                    </li>
+                    <li>
+                        <a href="kommunikationsstrategi.html">Kommunikation</a>
+                    </li>
+                    <li>
+                        <a href="Virksomhed.html">Virksomhed</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- 2nd Header-->
+        <div class="Sec_nav">
+            <ul>
+                <li>
+                    <a href="interaktion.html">Internettets historie</a>
+                </li>
+                <li>
+                    <a href="Html.html">HTML</a>
+                </li>
+                <li>
+                    <a href="CSSpage.html">CSS</a>
+                </li>
+                <li>
+                    <a href="Text.html">Text Styles</a>
+                </li>
+                <li>
+                    <a href="Versionsstyring.html">Versionsstyring</a>
+                </li>
+                <li>
+                    <a href="Grid.html">CSS Grid</a>
+                </li>
+                <li>
+                    <a href="Responsive.html">Responsive design</a>
+                </li>
+                <li>
+                    <a href="OnePIN.html">One Page</a>
+                </li>
+                <li>
+                    <a href="Frameworks.html">Frameworks</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 2nd Nav end-->
+
+    </header>
+    <!-- Header end -->
+
+    <section id="Container_Html">
+        <div class="Container_placing">
+            <h1 class="Chapter_Header"> HTML elementer</h1>
+
+            <!-- Strukturerende HTML-->
+
+            <div class="ContainerHTML_Holder">
+                <div class="smalltext">
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+                            <h1>Strukturerende HTML elementer</h1>
+                            <hr />
+                            <h4>Section</h4>
+                            <p>
+                                Logisk opdeling af indhold.  Kan sammenlignes med opdeling af tekst.
+                                Organisering på baggrund af materiale
+
+                            </p>
+                            <h4>Article</h4>
+                            <p>
+                                Uafhængigt - indholdet kan stå for sig selv.
+                                Genbrugeligt - indhold skal kunne genbruges.
+
+                            </p>
+                            <h4>
+                                Aside
+                            </h4>
+                            <p>
+                                Indhold, der ikke er bundet af hovedtema. f.eks faktaboks.
+                            </p>
+                            <h4>
+                                Navigation
+                            </h4>
+                            <ul>
+                                <li>
+                                    Gruppering af links.
+                                </li>
+                                <li>
+                                    Ikke til enkeltstående links.
+                                </li>
+                                <li>
+                                    En slags menu.
+                                </li>
+                                <li>
+                                    Indholdsfortegnelse.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+                            <h4>
+                                Address
+                            </h4>
+                            <p>
+                                Bruges til forfatterens kontaktinformation.
+                                Ikke til tilfældige kontaktinformationer.
+
+                            </p>
+                            <h4>
+                                Outline og headings
+                            </h4>
+                            <p>
+                                <b>Outline</b> - skabes af dokumentets sektioner - section, article, aside
+                                overordnet billede af sidens indhold.
+                            </p>
+                            <p>
+                                <b> Headings</b> -
+                                skaber struktur samt en del af outline.
+                                Hierarki.
+
+                            </p>
+
+                            <h4>
+                                De hurtige
+                            </h4>
+                            <p>
+                                Header, footer introducerer samt afslutter indholdet
+                                planlæg layoutet, letter arbejdsprocessen, bedre billede af struktur
+                            <p> <b>blockquote</b> - ved behov for lange citeringer. sectioning roots, egent outline, f.eks. body og figure.</p>
+                            <p>
+                                <b>figure - selvstændig indhold</b>  kan uden problemer flyttes til en anden placering. kan f.eks. bruges til billede og beskrivelse.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+                            <h4>
+                                Grupperende elementer (små)
+                            </h4>
+                            <p>
+                                <b> Paragraph </b> - organisering i små dele (afsnit). <br />
+                                <b>Horizontal rule hr </b> - bruges typisk for visuel fremstilling af emneskrift. <br />
+                                <b>Preformatted pre </b> - rendered as entered. inkl. white space.
+                            </p>
+                            <h4>Listing elements</h4>
+                            <p>
+                                <b>bullet points </b>- men også tekststykker - med en liste bliver det klart, at dette hører sammen.<br />
+                                <b>to typer </b> - <br /> <b>OL ordered list</b>, rækkefølgen af betydning . <br /> <b>UL unordered list.</b> Rækkefølge har ingen betydning.
+                                <br><b>DL description list.</b> et sæt - name og value. bruges ofte til ordforklaring/begrebsforklaring. DF definerer. DD beskriver.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+
+
+            <!-- Phrasing HTML -->
+            <div class="ContainerHTML_Holder">
+
+                <div class="smalltext">
+
+                    <!-- Første spalte-->
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+                            <h1>Phrasing HTML elements</h1>
+                            <hr />
+                            <p>
+                                <h4>Strong Importance</h4>
+                                Strong bruges til at fremhæve det vigtige i teksten.
+
+                                <h4>
+                                    Mark relevance
+                                </h4>
+                                Mark bruges til at highlighte en del af teksten f.eks. noget fra et citat eller fra anden kilde.
+                                <h4>
+                                    I Alternative Voice
+                                </h4>
+                                "i" Bruges når noget af teksten skal være anderledes. f.eks. en tanke eller hvis man citere et andet sprog.
+                                <h4>
+                                    Small
+                                </h4>
+                                small er ngoet som skal være der. detaljerne i small er oftes meget vigtige. f.eks. "Copyright 2017".
+                                <h4>
+                                    Strikethrough
+                                </h4>
+                                S bruges til at strege teksten over når den ikke er relevant mere og man vil vise en ændring. "før 150(streg over 150). nu 75".
+                                <h4>Unarticulated U</h4>
+                                u bruges til at fremvise stavefejl, og understrege kinesiske navne.
+
+                                <h4>
+                                    Code
+                                </h4>
+                                Code repræsentere en del af en type computer kode. code elementet bruges til hvilken som helst tekst der kan genkendes af computer programmer.
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Anden spalte -->
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+                            <p>
+                                <h4>
+                                    Keyboard
+                                </h4>
+                                KBD indhold som er input i computeren. som keyboard input.
+                                <h4>
+                                    Sample
+                                </h4>
+                                Sample indikere indhold som er en slags output.
+                                <h4>
+                                    Variable
+                                </h4>
+                                "Var" kan bruges til at inkludere en formular.
+                                <h4>
+                                    Abbreviation
+                                </h4>
+                                abbr bruges til at inkludere den udvidet version af (ord) forkortelsen HTML sættes i title tag -  udvidelsen bliver ikke vist før musen føres hen over ordet.
+                                <h4>
+                                    Definition
+                                </h4>
+                                dfn bruges til at identificere et udtryk som bliver forklaret. Det er definitionen af et udtryk.
+                                <h4>
+                                    Subscripts
+                                </h4>
+                                "sub" bruges til at placer bogstaver/tal lavere.
+                                <h4>
+                                    Superscripts
+                                </h4>
+                                "Sup" er det modsatte af Sub. den placere tallet/bogstavet højere.
+                                <h4>
+                                    Delete
+                                </h4>
+                                "del" bruges til at strege gammelt indhold over.
+                                <h4>
+                                    Inset
+                                </h4>
+                                "ins" er hvor nyt indhold understreges.
+                                <h4>
+                                    Quoting
+                                </h4>
+                                q inline qoute.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Tredje spalte -->
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+                            <p>
+
+
+                                <h4>
+                                    Cite
+                                </h4>
+                                Cite bruges til at indikere kilden. alle qoutes burde give credit til kilden.
+                                <h4>
+                                    Span
+                                </h4>
+                                "span" er en måde at samle oplysninger på. Bruges til at identificere dele af dokumentet. blue, red.
+                                <h4>
+                                    Line break
+                                </h4>
+                                "br" bruges til at bryde linjerne (linje skrift) br er et tomt element.
+                                <h4>
+                                    Word break
+                                </h4>
+                                for et langt ord kan blive delt op. så det ikke kræver et linjeskift.
+                                <h4>
+                                    &shy Hyphens
+                                </h4>
+                                Bruges til at fortælle browseren hvor et brud.
+                                <h4>
+                                    Direction
+                                </h4>
+                                Dir - direction sættes ved dir attributens eks. "html dir = Rtl" her er retningen til at høre fra højre til venstre.
+                                <h4>
+                                    Overriding the direction
+                                </h4>
+                                BDO overskriver tidligere indstillinger af direction.
+                                <h4>
+                                    Ruby
+                                </h4>
+                                ruby bruges til at anmærke indhold med lille tekst. bruges i øst asiatisk typografi til hjælp med udtagelse.
+                                <h4>Emphasis</h4>
+                                em
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <hr />
+
+            <!-- Tabeller i HTML-->
+            <div class="ContainerHTML_Holder">
+
+                <div class="smalltext">
+
+                    <!-- Første spalte-->
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+
+                            <h1> Tabeller i HTML</h1>
+                            <hr />
+
+                            <p>
+                                <h4>
+                                    Hvad er en tabel
+                                </h4>
+                                En måde at organisere data
+                                <h4>
+                                    Simpel tabel
+                                </h4>
+                                <img src="Pictures/interaktion1.jpg" />
+                                <h4>
+                                    Table header
+                                </h4>
+                                Bruges til at lave en overskrift til ens Td (table cells). TH gør teksten Bold
+                                <h4>
+                                    Table header
+                                </h4>
+                                Thead - Her skal TH kolonnen ind. - der kan være mere end 1 af disse i din tabel.
+                                <h4>
+                                    Spannings cells
+                                </h4>
+                                I html er det muligt, at kombinere forskellige (cells). Tabeller i html er for det meste, bygget op af th og td
+                                De optager hver 1 enkelt plads i en tabel pr enhed.
+                                <h4>
+                                    Colspan og rowspan
+                                </h4>
+                                er attributter, som understøtter TH og TR
+                                Har begge en værdi af 1
+
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Anden spalte -->
+
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+
+                            <p>
+                                <h4>
+                                    Det periodisk system
+                                </h4>
+                                Der er flere forskellige kolonner, hvor der skal være forskellige antal grundstoffer i
+                                ædelgasser (skal stå i en kolonne for sig selv).
+                                <h4>
+                                    Colspan
+                                </h4>
+                                Colspan og rowspan attributterne, kan bruges til at kombinere flere tabelceller til 1 enkelt celle.
+                                <h4>
+                                    Form elementer
+                                </h4>
+                                Form elementer benyttes når "brugeren" skal indtaste data eller information på en hjemmeside.
+                                <h4>
+                                    Selection elements
+                                </h4>
+                                Checkbox (en gruppe forslag, flere kan vælges).<br />
+                                Radio ( en gruppe forslag, kun én kan vælges).<br />
+                                Drop down lists.<br />
+                                Multi-select lists.<br />
+                                <h4>
+                                    Select
+                                </h4>
+                                Definerer en drop downlist
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Tredje spalte -->
+                    <div class="containerHTML_left">
+                        <div class="TypoIntro">
+
+                            <p>
+                                <h4>
+                                    Input "name"
+                                </h4>
+                                <img src="Pictures/interaktion2.jpg" />
+                                Name er en gruppering. Hvis der er flere input types med et name der hører sammen, kan de 	grupperes med name.
+                                <h4>
+                                    Selectors
+                                </h4>
+                                Selector bliver brugt til at finde eller vælge html elementer ud fra deres element, navn, id class og attributter.
+                                <h4>
+                                    Element/type
+                                </h4>
+                                Element selector bliver også kaldt type selector.
+                                element selector bruges til alle elementer med et specifik tag.
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+</section>
+    <footer> <p>Copyright 2017-2018 &copy; Mette Nielsen </p>
+    <i class="smalltext">Kile: Collins, Mark J. 2017 "Pro HTML5 with CSS, Javascript, and Multimedia - complete Website Development and Best Practices"</i>
+    </footer>
+
+</body>
+</html>
